@@ -1,5 +1,5 @@
 {
-	"name": "sveltekit-blog-starter",
+	"name": "Anh's Blog",
 	"version": "2.0.2",
 	"scripts": {
 		"dev": "vite dev",
