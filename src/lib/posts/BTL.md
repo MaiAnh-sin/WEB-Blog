@@ -9,7 +9,7 @@ coverImage: "https://ant.ncc.asia/wp-content/uploads/2024/05/1_BmvPfSSm2G8C-khX1
 coverWidth: 20
 coverHeight: 10
 excerpt: Báo cáo tổng hợp bài tập lơn về hệ thống phân tán
----
+---  
 
 
 # Báo cáo Bài tập lớn: Ứng dụng Tìm kiếm Phân tán với Elasticsearch
@@ -54,7 +54,7 @@ Bài toán cốt lõi của đồ án là xây dựng một ứng dụng cho ph�
   - **Tính sẵn sàng cao và chịu lỗi:** Nếu một node gặp sự cố, các replicas trên các nodes khác đảm bảo dữ liệu không bị mất và hệ thống vẫn tiếp tục hoạt động.
 - **Tốc độ và Hiệu năng:** Nhờ vào việc sử dụng inverted index của Lucene và kiến trúc phân tán, Elasticsearch cho phép truy vấn dữ liệu lớn với thời gian phản hồi rất nhanh.
 - **Giao diện RESTful API:** Cung cấp API HTTP dễ sử dụng để tương tác với dữ liệu (CRUD, tìm kiếm, quản trị cluster), cho phép tích hợp dễ dàng với nhiều ngôn ngữ lập trình và ứng dụng khác nhau, bao gồm Node.js được sử dụng trong đồ án này.
-- **Schema-Free (Linh hoạt về lược đồ):** Mặc dù có thể định nghĩa mapping (tương tự schema), Elasticsearch cũng có thể tự động nhận diện kiểu dữ liệu, giúp việc lập chỉ mục dữ liệu ban đầu trở nên đơn giản hơn.
+- **Schema-Free (Linh hoạt về lược đồ):** Mặc dù có thể định nghĩa mapping (tương tự schema), Elasticsearch cũng có thể tự động nhận diện kiểu dữ liệu, giúp việc lập chỉ mục dữ liệu ban đầu trở nên đơn giản hơnn.
 - **Cộng đồng lớn và Hệ sinh thái phong phú:** Có một cộng đồng người dùng và nhà phát triển lớn, cùng với nhiều công cụ hỗ trợ như Logstash (thu thập log), Kibana (trực quan hóa dữ liệu - mặc dù đồ án này không sử dụng trực tiếp Kibana để giám sát node), Beats (thu thập dữ liệu).
 
 Với những ưu điểm vượt trội này, Elasticsearch là một lựa chọn phù hợp để xây dựng nền tảng cho ứng dụng tìm kiếm phân tán của đồ án.
