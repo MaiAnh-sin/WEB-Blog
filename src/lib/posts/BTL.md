@@ -1,15 +1,17 @@
 ---
-title: "Distributed System notes 2"
-date: "2025-05-11"
-updated: "2025-05-11"
+title: "Báo cáo Bài tập lớn: Ứng dụng Tìm kiếm Phân tán với Elasticsearch"
+date: "2025-06-02"
+updated: "2025-06-02"
 categories:
   - "sveltekit"
   - "markdown"
-coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uJDmZ9pT8h6BnlkTT5EGBrdJyxtKMYpGwQ&s"
-coverWidth: 16
-coverHeight: 9
-excerpt: Check out how heading links work with this starter in this post.
+coverImage: "https://ant.ncc.asia/wp-content/uploads/2024/05/1_BmvPfSSm2G8C-khX1rhCGg.jpg"
+coverWidth: 20
+coverHeight: 10
+excerpt: Báo cáo tổng hợp bài tập lơn về hệ thống phân tán
 ---
+
+
 # Báo cáo Bài tập lớn: Ứng dụng Tìm kiếm Phân tán với Elasticsearch
 
 | Thông tin                | Chi tiết |
